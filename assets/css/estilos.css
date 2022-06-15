@@ -1,0 +1,44 @@
+input, i{
+    margin-bottom: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+.logoff{
+    position: fixed;
+    right:0;
+    cursor: pointer;
+}
+
+#btn-change:hover{
+    animation: animation 1s linear infinite;
+}
+
+@keyframes animation{
+    0%{
+        background-image: linear-gradient(to bottom left, rgb(146, 146, 22), rgb(210, 105, 30), rgb(221, 178, 36) );
+    }
+    16%{
+        background-image: linear-gradient(to bottom left, rgb(221, 178, 36), rgb(255, 255, 0), rgb(210, 105, 30));
+    }
+    32%{
+        background-image: linear-gradient(to bottom left, rgb(255, 255, 0), rgb(210, 105, 30), rgb(221, 178, 36));
+    }
+    48%{
+        background-image: linear-gradient(to bottom left, rgb(210, 105, 30), rgb(221, 178, 36), rgb(255, 255, 0));
+    }
+    64%{
+        background-image: linear-gradient(to bottom left, rgb(255, 255, 0), rgb(210, 105, 30), rgb(221, 178, 36));
+    }
+    70%{
+        background-image: linear-gradient(to bottom left, rgb(221, 178, 36), rgb(255, 255, 0), rgb(210, 105, 30));
+    }
+    86%{
+        background-image: linear-gradient(to bottom left, rgb(255, 255, 0), rgb(210, 105, 30), rgb(221, 178, 36));
+    }
+    100%{
+        background-image: linear-gradient(to bottom left, rgb(210, 105, 30), rgb(221, 178, 36), rgb(255, 255, 0));
+    }
+}
